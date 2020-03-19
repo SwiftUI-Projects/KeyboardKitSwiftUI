@@ -1,0 +1,43 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "KeyboardKit",
+        "repositoryURL": "https://github.com/danielsaidi/KeyboardKit.git",
+        "state": {
+          "branch": "swiftui",
+          "revision": "601e5677cdcaaf3de90d3087d6cab33c655d61ac",
+          "version": null
+        }
+      },
+      {
+        "package": "Mockery",
+        "repositoryURL": "https://github.com/danielsaidi/Mockery.git",
+        "state": {
+          "branch": null,
+          "revision": "915f39f7bc02b9c3e9f4edc0b3f6a354f2b71462",
+          "version": "0.3.1"
+        }
+      },
+      {
+        "package": "Nimble",
+        "repositoryURL": "https://github.com/Quick/Nimble.git",
+        "state": {
+          "branch": null,
+          "revision": "f8657642dfdec9973efc79cc68bcef43a653a2bc",
+          "version": "8.0.2"
+        }
+      },
+      {
+        "package": "Quick",
+        "repositoryURL": "https://github.com/Quick/Quick.git",
+        "state": {
+          "branch": null,
+          "revision": "33682c2f6230c60614861dfc61df267e11a1602f",
+          "version": "2.2.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

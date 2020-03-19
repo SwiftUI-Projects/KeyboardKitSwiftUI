@@ -1,0 +1,21 @@
+disabled_rules:
+  - function_body_length
+  - function_parameter_count
+  - statement_position
+  - trailing_whitespace
+  - line_length
+  - todo
+  - type_name
+  - vertical_whitespace
+
+included:
+  - Sources
+  - Tests
+
+identifier_name:
+  excluded:
+    - id
+    - x
+    - y
+    - dx
+    - dy
