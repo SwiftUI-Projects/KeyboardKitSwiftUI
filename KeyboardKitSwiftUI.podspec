@@ -4,10 +4,10 @@ Pod::Spec.new do |s|
   s.name             = 'KeyboardKitSwiftUI'
   s.version          = '2.6.2'
   s.swift_versions   = ['5.1']
-  s.summary          = 'KeyboardKitSwiftUI contains SwiftUI add-ons to KeyboardKit.'
+  s.summary          = 'KeyboardKitSwiftUI adds SwiftUI support to KeyboardKit.'
 
   s.description      = <<-DESC
-KeyboardKit is a Swift library that can be used to create iOS keyboard extensions.
+KeyboardKitSwiftUI makes it possible to build custom keyboard extensions in SwiftUI.
                        DESC
 
   s.homepage         = 'https://github.com/danielsaidi/KeyboardKitSwiftUI'

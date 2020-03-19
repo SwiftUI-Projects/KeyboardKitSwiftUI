@@ -5,24 +5,6 @@
 
 This version adds the very first (and so far limited) support for `SwiftUI`. Many new features are iOS 13-specific.
 
-This version also deprecates a bunch of action handling logic and adds new functions that doesn't rely on `UIView`.
-
-
-### New features
-
-* `KeyboardInputViewController` has a new `setupNextKeyboardButton(...)` which turns any `UIButton` into a system-handled "next keyboard" button.
-* `NextKeyboardUIButton` makes use of this new functionality, and sets itself up with a `globe` icon as well.
-* `PhotoImageService` and `StandardPhotoImageService` can be used to save images to photos with a completion instead of a target and a selector.
-* `KeyboardImageActions` makes it easy to create a bunch of `.image` actions from a set of image names.
-* `KeyboardActionHandler` has a new `open handle(_ gesture:on:view:)`  which is already implemented in `StandardKeyboardActionHandler`.
-
-* The global `isKeyboardEnabled` function can be used to check if a certain keyboard extension is enabled or not.
-* The `keyboardSettings` `URL` extension is a convenience extension for finding the url to application settings.
-* The `evened(for gridSize: Int)` `[KeyboardAction]` extension appends enough `.none` actions to evenly fit the grid size.
-* The `saveToPhotos(completion:)` `UIImage` extension is a completion-based way of saving images to photos.
-
-### SwiftUI
-
 There are some new views that can be used in SwiftUI-based apps and keyboard extensions:
 
 * `KeyboardGrid` distributes actions evenly within a grid.
@@ -37,7 +19,7 @@ There are some new views that can be used in SwiftUI-based apps and keyboard ext
 * `KeyboardInputViewController` `setup(with:View)`  sets up a `KeyboardHostingController`.
 * `View` `withClearInteractableBackground()` can be used to make an entire view interactable.
 
-All SwiftUI-related functionality is placed in the `SwiftUI` folder.
+
 
 ### UIKit
 

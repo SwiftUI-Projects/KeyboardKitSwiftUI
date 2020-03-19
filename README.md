@@ -17,13 +17,9 @@
 
 ## About KeyboardKitSwiftUI
 
-[KeyboardKit][KeyboardKit] is a Swift library that helps you create custom keyboard extensions for iOS. It supports a bunch of different actions and keyboard types and lets you create keyboards with text inputs, emojis, actions, images etc.
+`KeyboardKitSwiftUI` extends [KeyboardKit][KeyboardKit] with `SwiftUI` functionality. 
 
-<p align="center">
-    <img src ="Resources/Demo.gif" />
-</p>
-
-`KeyboardKitSwiftUI` extends [KeyboardKit][KeyboardKit] with `SwiftUI` functionality. It's requires iOS 13 and is a separate framework because Xcode can't handle iOS 13 features in a framework that targets iOS 11.
+It's temporarily a separate framework, since Xcode can't handle iOS 13 features in a framework that targets iOS 11. When this is fixed, this library will be included in the main project.
 
 
 ## Installation
