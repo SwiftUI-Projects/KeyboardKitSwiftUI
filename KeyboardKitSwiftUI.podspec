@@ -2,7 +2,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'KeyboardKitSwiftUI'
-  s.version          = '2.7.0'
+  s.version          = '2.7.2'
   s.swift_versions   = ['5.1']
   s.summary          = 'KeyboardKitSwiftUI adds SwiftUI support to KeyboardKit.'
 
@@ -20,5 +20,5 @@ KeyboardKitSwiftUI makes it possible to build custom keyboard extensions in Swif
   s.ios.deployment_target = '13.0'
   s.source_files = 'Sources/KeyboardKitSwiftUI/**/*.swift'
 
-  s.dependency 'KeyboardKit', '~> 2.7.0'
+  s.dependency 'KeyboardKit', '~> 2.7.2'
 end
