@@ -1,6 +1,11 @@
 # Release Notes
 
 
+## 2.7.3
+
+This version updates external dependencies to their latest versions.
+
+
 ## 2.7.2
 
 This version adds a missing dependency to KeyboardKit.

@@ -6,8 +6,8 @@
         "repositoryURL": "https://github.com/danielsaidi/KeyboardKit.git",
         "state": {
           "branch": null,
-          "revision": "39723921c8dc729231b9b9f457148292d6c33df4",
-          "version": "2.7.2"
+          "revision": "ba901cc001654e910f05890b3ee386886877715e",
+          "version": "2.7.3"
         }
       },
       {
@@ -15,8 +15,8 @@
         "repositoryURL": "https://github.com/danielsaidi/Mockery.git",
         "state": {
           "branch": null,
-          "revision": "915f39f7bc02b9c3e9f4edc0b3f6a354f2b71462",
-          "version": "0.3.1"
+          "revision": "873da92ef23789e0065fa25dff234f5cde03500b",
+          "version": "0.3.2"
         }
       },
       {
@@ -24,8 +24,8 @@
         "repositoryURL": "https://github.com/Quick/Nimble.git",
         "state": {
           "branch": null,
-          "revision": "f8657642dfdec9973efc79cc68bcef43a653a2bc",
-          "version": "8.0.2"
+          "revision": "7fd118ec8795888bcbbebc1a41f6984454c4cd6f",
+          "version": "8.0.7"
         }
       },
       {
