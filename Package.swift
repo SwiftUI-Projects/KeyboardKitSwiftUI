@@ -16,7 +16,7 @@ let package = Package(
     dependencies: [
         .package(url: "https://github.com/Quick/Quick.git", from: "2.2.0"),
         .package(url: "https://github.com/Quick/Nimble.git", from: "8.0.0"),
-        .package(url: "https://github.com/danielsaidi/KeyboardKit.git", from: "2.7.3")
+        .package(url: "https://github.com/danielsaidi/KeyboardKit.git", from: "2.7.4")
     ],
     targets: [
         .target(
