@@ -31,15 +31,9 @@ To setup a custom keyboard to be used with `SwiftUI`, import `KeyboardKitSwiftUI
 `KeyboardKitSwiftUI` contains a couple of views to help you get started. For instance, you have a set of `Button`s, some convenient `Extension`s and a `KeyboardGrid` that helps you build grid-based keyboards.
 
 
+## Demo application
 
-` extension method  in your 
-
-
- use a `KeyboardHostingController`, which can be used to embed a `SwiftUI` `View` to a `KeyboardHostingController`. Instead of 
-
-
-
-I will add readmes and demos of these later. Until then, I hope that the code speaks for itself.
+There is a SwiftUI-specific demo application in 
 
 
 ## Installation
@@ -52,12 +46,12 @@ https://github.com/danielsaidi/KeyboardKitSwiftUI.git
 ### CocoaPods
 
 ```ruby
-target 'HostApp' do
-  pod 'KeyboardKitSwiftUI'
+target 'MyApp' do
+  pod 'KeyboardKit'
 end
 
-target 'KeyboardExtension' do
-  pod 'KeyboardKitSwiftUI'
+target 'MyKeyboard' do
+  pod 'KeyboardKit'
 end
 ```
 

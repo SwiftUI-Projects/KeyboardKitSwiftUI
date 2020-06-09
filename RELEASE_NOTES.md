@@ -1,6 +1,14 @@
 # Release Notes
 
 
+## 3.0.0
+
+This version adds some iOS13/SwiftUI/Combine-specific logic.
+
+* `KeyboardSetting` can resolve a unique key for an `Identifiable` context.
+* `PersistedKeyboardSetting` can resolve a unique key for an `Identifiable` context.
+
+
 ## 2.9.0 - 2.7.2
 
 This version updates external dependencies to their latest versions.
