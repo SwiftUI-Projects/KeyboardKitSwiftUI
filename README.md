@@ -19,14 +19,32 @@
 
 `KeyboardKitSwiftUI` extends [KeyboardKit][KeyboardKit] with `SwiftUI` functionality. 
 
-It's temporarily a separate framework, since Xcode can't handle iOS 13 features in a framework that targets iOS 11. When this is fixed, this library will be included in the main project.
+It's temporarily a separate framework, since Xcode can't handle iOS 13 features in a framework that targets iOS 11. When this is fixed, this library will be added to `KeyboardKit`.
+
+
+## SwiftUI
+
+`KeyboardKitSwiftUI` has tools and views that help you build `KeyboardKit`-based keyboard extensions in SwiftUI.
+
+To setup a custom keyboard to be used with `SwiftUI`, import `KeyboardKitSwiftUI` and set up your input view controller with `setup<Content: View>(with view: Content)`. It takes a custom `SwiftUI` `View` and will use this view to resize the extension.
+
+`KeyboardKitSwiftUI` contains a couple of views to help you get started. For instance, you have a set of `Button`s, some convenient `Extension`s and a `KeyboardGrid` that helps you build grid-based keyboards.
+
+
+
+` extension method  in your 
+
+
+ use a `KeyboardHostingController`, which can be used to embed a `SwiftUI` `View` to a `KeyboardHostingController`. Instead of 
+
+
+
+I will add readmes and demos of these later. Until then, I hope that the code speaks for itself.
 
 
 ## Installation
 
 ### Swift Package Manager
-
-The easiest way to add KeyboardKitSwiftUI to your project in Xcode 11 is to use Swift Package Manager:
 ```
 https://github.com/danielsaidi/KeyboardKitSwiftUI.git
 ```
@@ -38,21 +56,10 @@ target 'HostApp' do
   pod 'KeyboardKitSwiftUI'
 end
 
-target 'KeyboardExt' do
+target 'KeyboardExtension' do
   pod 'KeyboardKitSwiftUI'
 end
 ```
-
-### Manual installation
-
-To manually add `KeyboardKitSwiftUI` to your app, clone this repository, add `KeyboardKitSwiftUI.xcodeproj` to your project and `KeyboardKitSwiftUI.framework` as an embedded app binary and target dependency.
-
-
-## SwiftUI
-
-KeyboardKitSwiftUI offers new views and tools that helps you build keyboards in SwiftUI. 
-
-I will add readmes and demos of these later. Until then, I hope that the code speaks for itself.
 
 
 ## Contact me
