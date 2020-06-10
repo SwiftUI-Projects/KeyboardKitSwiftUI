@@ -62,6 +62,7 @@ private extension KeyboardAction {
     var image: UIImage {
         switch self {
         case .image(_, let imageName, _): return UIImage(named: imageName) ?? UIImage()
+        case .systemImage(_, let imageName, _): return UIImage(systemName: imageName) ?? UIImage()
         default: return UIImage()
         }
     }
