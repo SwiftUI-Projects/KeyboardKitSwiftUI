@@ -13,12 +13,19 @@ import KeyboardKit
 public extension KeyboardInputViewController {
     
     /**
-     Remove all subviews from the view controller then add a
-     `SwiftUI` `View` that pins to the extension edges.
+     Remove all subviews then add a `SwiftUI` view that pins
+     to the edges and resizes the extension to fit the view.
+     
+     When this function is called, the input vc will convert
+     its `keyboardContext` to an `ObservableKeyboardContext`
+     and provide thesame context to the provided view, as an
+     `@EnvironmentObject` of type `ObservableKeyboardContext`.
      */
     func setup<Content: View>(with view: Content) {
         self.view.subviews.forEach { $0.removeFromSuperview() }
-        let controller = KeyboardHostingController(rootView: view)
+        let newContext = ObservableKeyboardContext(from: context)
+        self.context = newContext
+        let controller = KeyboardHostingController(rootView: view.environmentObject(newContext))
         controller.add(to: self)
     }
 }
